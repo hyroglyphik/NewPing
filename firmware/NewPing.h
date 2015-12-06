@@ -104,10 +104,10 @@
 #define NewPing_h
 
 #if defined(ARDUINO) && ARDUINO >= 100
-	#include <Arduino.h>
+//	#include <Arduino.h>
 #else
-	#include <WProgram.h>
-	#include <pins_arduino.h>
+//	#include <WProgram.h>
+//	#include <pins_arduino.h>
 #endif
 
 #include <avr/io.h>
