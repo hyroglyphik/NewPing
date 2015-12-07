@@ -110,8 +110,8 @@
 //	#include <pins_arduino.h>
 #endif
 
-#include <avr/io.h>
-#include <avr/interrupt.h>
+//#include <avr/io.h>
+//#include <avr/interrupt.h>
 
 // Shoudln't need to changed these values unless you have a specific need to do so.
 #define MAX_SENSOR_DISTANCE 500 // Maximum sensor distance can be as high as 500cm, no reason to wait for ping longer than sound takes to travel this distance and back.
